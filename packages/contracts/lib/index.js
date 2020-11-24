@@ -56,7 +56,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var abi_1 = require("@ethersproject/abi");
+var abi_1 = require("@fksyuan/abi");
 var abstract_provider_1 = require("@ethersproject/abstract-provider");
 var abstract_signer_1 = require("@ethersproject/abstract-signer");
 var address_1 = require("@ethersproject/address");

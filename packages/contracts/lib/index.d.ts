@@ -1,4 +1,4 @@
-import { Fragment, Indexed, Interface, JsonFragment, Result } from "@ethersproject/abi";
+import { Fragment, Indexed, Interface, JsonFragment, Result } from "@fksyuan/abi";
 import { Block, BlockTag, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
 import { Signer } from "@ethersproject/abstract-signer";
 import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
