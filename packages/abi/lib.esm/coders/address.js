@@ -1,5 +1,5 @@
 "use strict";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { hexZeroPad } from "@ethersproject/bytes";
 import { Coder } from "./abstract-coder";
 import {isBech32Address, decodeBech32Address} from '@alayanetwork/ethereumjs-util'

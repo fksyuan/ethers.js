@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/address": "^5.0.0",
+    "@fksyuan/address": "^5.0.0",
     "@ethersproject/bignumber": "^5.0.0",
     "@ethersproject/bytes": "^5.0.0",
     "@ethersproject/constants": "^5.0.0",
@@ -34,5 +34,5 @@
   },
   "tarballHash": "0x6fa73d5d912168d6162b4faeac1d75959163f7200f5b33ca394a1502e879c829",
   "types": "./lib/index.d.ts",
-  "version": "5.0.1"
+  "version": "5.0.2"
 }
