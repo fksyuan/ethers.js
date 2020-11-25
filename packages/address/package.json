@@ -6,24 +6,25 @@
     "@ethersproject/keccak256": "^5.0.0",
     "@ethersproject/logger": "^5.0.0",
     "@ethersproject/rlp": "^5.0.0",
-    "bn.js": "^4.4.0"
+    "bn.js": "^4.4.0",
+    "@alayanetwork/web3-utils": "^0.13.2"
   },
   "description": "Utilities for handling Ethereum Addresses for ethers.",
   "ethereum": "donations.ethers.eth",
   "keywords": [
-    "Ethereum",
+    "Alaya",
     "ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/address",
+  "name": "@fksyuan/address",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/fksyuan/ethers.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
