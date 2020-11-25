@@ -1,7 +1,7 @@
 "use strict";
 
 import { Block, TransactionReceipt, TransactionResponse } from "@ethersproject/abstract-provider";
-import { getAddress, getContractAddress } from "@ethersproject/address";
+import { getAddress, getContractAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
 import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
 import { AddressZero } from "@ethersproject/constants";
