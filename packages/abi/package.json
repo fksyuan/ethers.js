@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@fksyuan/address": "^5.0.0",
+    "@alayanetwork/ethereumjs-util": "^5.2.1",
     "@ethersproject/bignumber": "^5.0.0",
     "@ethersproject/bytes": "^5.0.0",
     "@ethersproject/constants": "^5.0.0",
@@ -10,7 +10,7 @@
     "@ethersproject/logger": "^5.0.0",
     "@ethersproject/properties": "^5.0.0",
     "@ethersproject/strings": "^5.0.0",
-    "@alayanetwork/ethereumjs-util": "^5.2.1"
+    "@fksyuan/address": "^5.0.0"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",

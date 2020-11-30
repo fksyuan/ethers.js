@@ -1,6 +1,6 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
-  "browser": "./lib/browser.js",
+  "browser": "./lib.esm/browser.js",
   "browser.esm": "./lib.esm/browser.js",
   "browser.umd": "./lib/browser.js",
   "dependencies": {

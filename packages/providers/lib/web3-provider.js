@@ -21,8 +21,8 @@ var json_rpc_provider_1 = require("./json-rpc-provider");
 var _nextId = 1;
 function buildWeb3LegacyFetcher(provider, sendFunc) {
     return function (method, params) {
-        // Metamask complains about eth_sign (and on some versions hangs)
-        if (method == "eth_sign" && provider.isMetaMask) {
+        // Metamask complains about platon_sign (and on some versions hangs)
+        if (method == "platon_sign" && provider.isMetaMask) {
             // https://github.com/ethereum/go-ethereum/wiki/Management-APIs#personal_sign
             method = "personal_sign";
             params = [params[1], params[0]];
@@ -54,8 +54,8 @@ function buildEip1193Fetcher(provider) {
         if (params == null) {
             params = [];
         }
-        // Metamask complains about eth_sign (and on some versions hangs)
-        if (method == "eth_sign" && provider.isMetaMask) {
+        // Metamask complains about platon_sign (and on some versions hangs)
+        if (method == "platon_sign" && provider.isMetaMask) {
             // https://github.com/ethereum/go-ethereum/wiki/Management-APIs#personal_sign
             method = "personal_sign";
             params = [params[1], params[0]];

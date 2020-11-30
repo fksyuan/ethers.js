@@ -3,7 +3,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "rootDir": "./src.ts",
-    "outDir": "./lib/"
+    "outDir": "./lib.esm/"
   },
   "include": [
     "./thirdparty.d.ts",

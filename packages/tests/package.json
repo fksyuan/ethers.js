@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "browser": {
-    "ethers": "./lib/browser-ethers.js"
+    "ethers": "./lib.esm/browser-ethers.js"
   },
   "browser.esm": {
     "ethers": "./lib.esm/browser-ethers.js"

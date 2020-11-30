@@ -22,8 +22,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function () { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () { return this; }), g;
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
@@ -140,18 +140,16 @@ function populateTransaction(contract, fragment, args) {
                             overrides.from = properties_1.resolveProperties({
                                 override: resolveName(contract.signer, overrides.from),
                                 signer: contract.signer.getAddress()
-                            }).then(function (check) {
-                                return __awaiter(_this, void 0, void 0, function () {
-                                    return __generator(this, function (_a) {
-                                        if (address_1.getAddress(check.signer) !== check.override) {
-                                            logger.throwError("Contract with a Signer cannot override from", logger_1.Logger.errors.UNSUPPORTED_OPERATION, {
-                                                operation: "overrides.from"
-                                            });
-                                        }
-                                        return [2 /*return*/, check.override];
-                                    });
+                            }).then(function (check) { return __awaiter(_this, void 0, void 0, function () {
+                                return __generator(this, function (_a) {
+                                    if (address_1.getAddress(check.signer) !== check.override) {
+                                        logger.throwError("Contract with a Signer cannot override from", logger_1.Logger.errors.UNSUPPORTED_OPERATION, {
+                                            operation: "overrides.from"
+                                        });
+                                    }
+                                    return [2 /*return*/, check.override];
                                 });
-                            });
+                            }); });
                         }
                         else {
                             overrides.from = contract.signer.getAddress();
@@ -165,10 +163,10 @@ function populateTransaction(contract, fragment, args) {
                         //overrides.from = AddressZero;
                     }
                     return [4 /*yield*/, properties_1.resolveProperties({
-                        args: resolveAddresses(contract.signer || contract.provider, args, fragment.inputs),
-                        address: contract.resolvedAddress,
-                        overrides: (properties_1.resolveProperties(overrides) || {})
-                    })];
+                            args: resolveAddresses(contract.signer || contract.provider, args, fragment.inputs),
+                            address: contract.resolvedAddress,
+                            overrides: (properties_1.resolveProperties(overrides) || {})
+                        })];
                 case 1:
                     resolved = _a.sent();
                     tx = {
