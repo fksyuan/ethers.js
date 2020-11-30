@@ -1,6 +1,7 @@
 "use strict";
 import { Logger } from "@ethersproject/logger";
 import { version } from "./_version";
+import { isBech32Address, decodeBech32Address } from "@alayanetwork/web3-utils";
 const logger = new Logger(version);
 ///////////////////////////////
 function isHexable(value) {
@@ -43,6 +44,9 @@ export function isBytes(value) {
 export function arrayify(value, options) {
     if (!options) {
         options = {};
+    }
+    if (typeof (value) === "string" && isBech32Address(value)) {
+        value = decodeBech32Address(value);
     }
     if (typeof (value) === "number") {
         logger.checkSafeUint53(value, "invalid arrayify value");

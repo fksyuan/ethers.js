@@ -2,6 +2,7 @@
 
 import { Logger } from "@ethersproject/logger";
 import { version } from "./_version";
+import {isBech32Address, decodeBech32Address} from "@alayanetwork/web3-utils";
 const logger = new Logger(version);
 
 ///////////////////////////////
@@ -90,6 +91,10 @@ export function isBytes(value: any): value is Bytes {
 
 export function arrayify(value: BytesLike | Hexable | number, options?: DataOptions): Uint8Array {
     if (!options) { options = { }; }
+
+    if (typeof(value) === "string" && isBech32Address(value)) {
+        value = decodeBech32Address(value);
+    }
 
     if (typeof(value) === "number") {
         logger.checkSafeUint53(value, "invalid arrayify value");

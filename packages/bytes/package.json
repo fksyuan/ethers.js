@@ -1,9 +1,13 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
+    "@alayanetwork/web3-utils": "^0.13.2",
     "@ethersproject/logger": "^5.0.0"
   },
   "description": "Bytes utility functions for ethers.",
+  "devDependencies": {
+    "@types/bn.js": "^4.11.6"
+  },
   "ethereum": "donations.ethers.eth",
   "keywords": [
     "Ethereum",
