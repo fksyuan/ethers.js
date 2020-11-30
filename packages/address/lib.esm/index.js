@@ -1,12 +1,13 @@
 "use strict";
 // We use this for base 36 maths
 import { BN } from "bn.js";
-import { arrayify, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@ethersproject/bytes";
+import { arrayify, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@fksyuan/bytes";
 import { BigNumber } from "@ethersproject/bignumber";
 import { keccak256 } from "@ethersproject/keccak256";
 import { encode } from "@ethersproject/rlp";
 import { Logger } from "@ethersproject/logger";
 import { version } from "./_version";
+import { isBech32Address} from "@alayanetwork/web3-utils";
 const logger = new Logger(version);
 function getChecksumAddress(address) {
     if (!isHexString(address, 20)) {
@@ -91,6 +92,8 @@ export function getAddress(address) {
             result = "0" + result;
         }
         result = getChecksumAddress("0x" + result);
+    } else if (isBech32Address(address)) {
+        return address;
     }
     else {
         logger.throwArgumentError("invalid address", "address", address);

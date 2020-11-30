@@ -3,11 +3,11 @@
   "dependencies": {
     "@alayanetwork/web3-utils": "^0.13.2",
     "@ethersproject/bignumber": "^5.0.0",
-    "@ethersproject/bytes": "^5.0.0",
     "@ethersproject/keccak256": "^5.0.0",
     "@ethersproject/logger": "^5.0.0",
     "@ethersproject/rlp": "^5.0.0",
-    "bn.js": "^4.4.0"
+    "bn.js": "^4.4.0",
+    "@fksyuan/bytes": "^5.0.0"
   },
   "description": "Utilities for handling Ethereum Addresses for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -31,5 +31,5 @@
   },
   "tarballHash": "0x4de9e63465db992b39e23b40979ee591c312c637bb19aa8f2de146ceaeb4b5c8",
   "types": "./lib/index.d.ts",
-  "version": "5.0.1"
+  "version": "5.0.3"
 }

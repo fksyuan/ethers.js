@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // We use this for base 36 maths
 var bn_js_1 = require("bn.js");
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@fksyuan/bytes");
 var bignumber_1 = require("@ethersproject/bignumber");
 var keccak256_1 = require("@ethersproject/keccak256");
 var rlp_1 = require("@ethersproject/rlp");

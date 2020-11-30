@@ -1,4 +1,4 @@
-import { BytesLike } from "@ethersproject/bytes";
+import { BytesLike } from "@fksyuan/bytes";
 import { BigNumberish } from "@ethersproject/bignumber";
 export declare function getAddress(address: string): string;
 export declare function isAddress(address: string): boolean;
