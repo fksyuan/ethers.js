@@ -10,19 +10,19 @@
   },
   "ethereum": "donations.ethers.eth",
   "keywords": [
-    "Ethereum",
+    "Alaya",
     "ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/bytes",
+  "name": "@fksyuan/bytes",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/fksyuan/ethers.js.git"
   },
   "scripts": {
     "auto-build": "npm run build -- -w",
