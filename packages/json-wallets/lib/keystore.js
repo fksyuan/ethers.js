@@ -62,7 +62,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var aes_js_1 = __importDefault(require("aes-js"));
 var scrypt = __importStar(require("scrypt-js"));
 var uuid_1 = __importDefault(require("uuid"));
-var address_1 = require("@ethersproject/address");
+var address_1 = require("@fksyuan/address");
 var bytes_1 = require("@ethersproject/bytes");
 var hdnode_1 = require("@ethersproject/hdnode");
 var keccak256_1 = require("@ethersproject/keccak256");

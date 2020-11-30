@@ -1,6 +1,6 @@
 "use strict";
 import aes from "aes-js";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { arrayify } from "@ethersproject/bytes";
 import { keccak256 } from "@ethersproject/keccak256";
 import { pbkdf2 } from "@ethersproject/pbkdf2";

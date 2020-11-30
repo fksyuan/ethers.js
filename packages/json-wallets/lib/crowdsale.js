@@ -17,7 +17,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var aes_js_1 = __importDefault(require("aes-js"));
-var address_1 = require("@ethersproject/address");
+var address_1 = require("@fksyuan/address");
 var bytes_1 = require("@ethersproject/bytes");
 var keccak256_1 = require("@ethersproject/keccak256");
 var pbkdf2_1 = require("@ethersproject/pbkdf2");

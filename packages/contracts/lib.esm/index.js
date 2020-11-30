@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import { checkResultErrors, Indexed, Interface } from "@fksyuan/abi";
 import { Provider } from "@ethersproject/abstract-provider";
 import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { getAddress, getContractAddress } from "@ethersproject/address";
+import { getAddress, getContractAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
 import { concat, hexlify, isBytes, isHexString } from "@ethersproject/bytes";
 //import { AddressZero } from "@ethersproject/constants";

@@ -5,7 +5,7 @@ import * as scrypt from "scrypt-js";
 import uuid from "uuid";
 
 import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { arrayify, Bytes, BytesLike, concat, hexlify } from "@ethersproject/bytes";
 import { defaultPath, entropyToMnemonic, HDNode, Mnemonic, mnemonicToEntropy } from "@ethersproject/hdnode";
 import { keccak256 } from "@ethersproject/keccak256";

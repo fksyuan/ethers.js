@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var address_1 = require("@ethersproject/address");
+var address_1 = require("@fksyuan/address");
 var abstract_provider_1 = require("@ethersproject/abstract-provider");
 var abstract_signer_1 = require("@ethersproject/abstract-signer");
 var bytes_1 = require("@ethersproject/bytes");

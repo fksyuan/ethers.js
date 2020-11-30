@@ -7,7 +7,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var address_1 = require("@ethersproject/address");
+var address_1 = require("@fksyuan/address");
 var bignumber_1 = require("@ethersproject/bignumber");
 var bytes_1 = require("@ethersproject/bytes");
 var constants_1 = require("@ethersproject/constants");

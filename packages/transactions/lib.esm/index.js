@@ -1,5 +1,5 @@
 "use strict";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
 import { arrayify, hexDataSlice, hexlify, hexZeroPad, isBytesLike, splitSignature, stripZeros, } from "@ethersproject/bytes";
 import { Zero } from "@ethersproject/constants";

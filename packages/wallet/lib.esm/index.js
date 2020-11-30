@@ -1,5 +1,5 @@
 "use strict";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { Provider } from "@ethersproject/abstract-provider";
 import { Signer } from "@ethersproject/abstract-signer";
 import { arrayify, concat, hexDataSlice, isHexString, joinSignature } from "@ethersproject/bytes";

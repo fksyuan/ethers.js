@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import aes from "aes-js";
 import * as scrypt from "scrypt-js";
 import uuid from "uuid";
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { arrayify, concat, hexlify } from "@ethersproject/bytes";
 import { defaultPath, entropyToMnemonic, HDNode, mnemonicToEntropy } from "@ethersproject/hdnode";
 import { keccak256 } from "@ethersproject/keccak256";

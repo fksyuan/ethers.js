@@ -1,6 +1,6 @@
 "use strict";
 
-import { getAddress } from "@ethersproject/address";
+import { getAddress } from "@fksyuan/address";
 import { Provider, TransactionRequest } from "@ethersproject/abstract-provider";
 import { ExternallyOwnedAccount, Signer } from "@ethersproject/abstract-signer";
 import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersproject/bytes";
