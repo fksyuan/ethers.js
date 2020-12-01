@@ -1,6 +1,6 @@
 "use strict";
 import { BigNumber } from "@ethersproject/bignumber";
-import { arrayify, concat, hexlify, zeroPad } from "@ethersproject/bytes";
+import { arrayify, concat, hexlify, zeroPad } from "@fksyuan/bytes";
 import { keccak256 as hashKeccak256 } from "@ethersproject/keccak256";
 import { sha256 as hashSha256 } from "@ethersproject/sha2";
 import { toUtf8Bytes } from "@ethersproject/strings";
