@@ -1,5 +1,5 @@
 "use strict";
-import { arrayify, concat, hexlify } from "@ethersproject/bytes";
+import { arrayify, concat, hexlify } from "@fksyuan/bytes";
 import { BigNumber } from "@ethersproject/bignumber";
 import { defineReadOnly } from "@ethersproject/properties";
 import { Logger } from "@ethersproject/logger";

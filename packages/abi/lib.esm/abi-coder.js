@@ -1,6 +1,6 @@
 "use strict";
 // See: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
-import { arrayify } from "@ethersproject/bytes";
+import { arrayify } from "@fksyuan/bytes";
 import { defineReadOnly } from "@ethersproject/properties";
 import { Logger } from "@ethersproject/logger";
 import { version } from "./_version";

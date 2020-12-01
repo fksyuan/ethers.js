@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify, BytesLike, concat, hexlify } from "@ethersproject/bytes";
+import { arrayify, BytesLike, concat, hexlify } from "@fksyuan/bytes";
 import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
 import { defineReadOnly } from "@ethersproject/properties";
 

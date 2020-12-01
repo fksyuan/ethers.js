@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@fksyuan/bytes");
 var bignumber_1 = require("@ethersproject/bignumber");
 var properties_1 = require("@ethersproject/properties");
 var logger_1 = require("@ethersproject/logger");

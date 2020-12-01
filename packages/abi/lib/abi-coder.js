@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // See: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
-var bytes_1 = require("@ethersproject/bytes");
+var bytes_1 = require("@fksyuan/bytes");
 var properties_1 = require("@ethersproject/properties");
 var logger_1 = require("@ethersproject/logger");
 var _version_1 = require("./_version");

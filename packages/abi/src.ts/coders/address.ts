@@ -1,7 +1,8 @@
 "use strict";
 
 import { getAddress } from "@fksyuan/address";
-import { hexZeroPad } from "@ethersproject/bytes";
+import { hexZeroPad } from "@fksyuan/bytes";
+import {isBech32Address, decodeBech32Address} from "@alayanetwork/web3-utils";
 
 import { Coder, Reader, Writer } from "./abstract-coder";
 
@@ -16,6 +17,9 @@ export class AddressCoder extends Coder {
             getAddress(value);
         } catch (error) {
             this._throwError(error.message, value);
+        }
+        if (isBech32Address(value)) {
+            value = decodeBech32Address(value);
         }
         return writer.writeValue(value);
     }

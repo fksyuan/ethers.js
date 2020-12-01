@@ -1,7 +1,7 @@
 "use strict";
 import { getAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
-import { arrayify, concat, hexDataSlice, hexlify, hexZeroPad, isHexString } from "@ethersproject/bytes";
+import { arrayify, concat, hexDataSlice, hexlify, hexZeroPad, isHexString } from "@fksyuan/bytes";
 import { id } from "@ethersproject/hash";
 import { keccak256 } from "@ethersproject/keccak256";
 import { defineReadOnly, Description, getStatic } from "@ethersproject/properties";

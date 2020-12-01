@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { BytesLike } from "@ethersproject/bytes";
+import { BytesLike } from "@fksyuan/bytes";
 import { Description } from "@ethersproject/properties";
 import { AbiCoder } from "./abi-coder";
 import { checkResultErrors, Result } from "./coders/abstract-coder";
