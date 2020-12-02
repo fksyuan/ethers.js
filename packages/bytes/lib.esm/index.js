@@ -139,6 +139,9 @@ export function hexlify(value, options) {
     if (!options) {
         options = {};
     }
+    if (typeof (value) === "string" && isBech32Address(value)) {
+        value = decodeBech32Address(value);
+    }
     if (typeof (value) === "number") {
         logger.checkSafeUint53(value, "invalid hexlify value");
         let hex = "";

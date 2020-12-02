@@ -199,6 +199,10 @@ const HexCharacters: string = "0123456789abcdef";
 export function hexlify(value: BytesLike | Hexable | number, options?: DataOptions): string {
     if (!options) { options = { }; }
 
+    if (typeof(value) === "string" && isBech32Address(value)) {
+        value = decodeBech32Address(value);
+    }
+
     if (typeof(value) === "number") {
         logger.checkSafeUint53(value, "invalid hexlify value");
 

@@ -31,5 +31,5 @@
   },
   "tarballHash": "0x38d537642ec1492da9037a0bace04ff260534dbc92f13c98e0c92d44a84611c8",
   "types": "./lib/index.d.ts",
-  "version": "5.0.1"
+  "version": "5.0.2"
 }
