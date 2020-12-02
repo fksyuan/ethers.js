@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "browser": {
-    "./lib.esm/ipc-provider": "./lib.esm/browser-ipc-provider.js",
-    "net": "./lib.esm/browser-net.js",
+    "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
+    "net": "./lib/browser-net.js",
     "ws": "./lib/browser-ws.js"
   },
   "browser.esm": {
@@ -19,7 +19,6 @@
     "@ethersproject/abstract-provider": "^5.0.0",
     "@ethersproject/abstract-signer": "^5.0.0",
     "@ethersproject/bignumber": "^5.0.0",
-    "@fksyuan/bytes": "^5.0.0",
     "@ethersproject/constants": "^5.0.0",
     "@ethersproject/hash": "^5.0.0",
     "@ethersproject/logger": "^5.0.0",
@@ -31,6 +30,7 @@
     "@ethersproject/transactions": "^5.0.0",
     "@ethersproject/web": "^5.0.0",
     "@fksyuan/address": "^5.0.0",
+    "@fksyuan/bytes": "^5.0.0",
     "ws": "7.2.3"
   },
   "description": "Ethereum Providers for ethers.",
@@ -58,5 +58,5 @@
   },
   "tarballHash": "0xd420bc6858a4a862e6e4b41e0d1e0dceab7aa385628c46bc6c69b179ed7ecc90",
   "types": "./lib/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

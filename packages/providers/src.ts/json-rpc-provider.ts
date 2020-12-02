@@ -265,14 +265,11 @@ export class JsonRpcProvider extends BaseProvider {
         await timer(0);
 
         let chainId = null;
+        
         try {
-            chainId = await this.send("platon_chainId", [ ]);
-        } catch (error) {
-            try {
-                chainId = await this.send("net_version", [ ]);
-            } catch (error) { }
-        }
-
+            chainId = await this.send("net_version", [ ]);
+        } catch (error) { }
+        
         if (chainId != null) {
             const getNetwork = getStatic<(network: Networkish) => Network>(this.constructor, "getNetwork");
             try {
