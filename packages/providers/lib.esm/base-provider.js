@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { ForkEvent, Provider } from "@ethersproject/abstract-provider";
 import { BigNumber } from "@ethersproject/bignumber";
-import { arrayify, hexDataLength, hexlify, hexValue, isHexString } from "@ethersproject/bytes";
+import { arrayify, hexDataLength, hexlify, hexValue, isHexString } from "@fksyuan/bytes";
 import { namehash } from "@ethersproject/hash";
 import { getNetwork } from "@ethersproject/networks";
 import { defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";

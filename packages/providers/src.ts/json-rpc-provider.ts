@@ -5,7 +5,7 @@
 import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
 import { Signer } from "@ethersproject/abstract-signer";
 import { BigNumber } from "@ethersproject/bignumber";
-import { Bytes, hexlify, hexValue } from "@ethersproject/bytes";
+import { Bytes, hexlify, hexValue } from "@fksyuan/bytes";
 import { Network, Networkish } from "@ethersproject/networks";
 import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
 import { toUtf8Bytes } from "@ethersproject/strings";
@@ -519,6 +519,10 @@ export class JsonRpcProvider extends BaseProvider {
 
         ["from", "to", "data"].forEach(function(key) {
             if ((<any>transaction)[key] == null) { return; }
+            if (key === "to" || key === "from") {
+                result[key] = transaction[key];
+                return
+            }
             result[key] = hexlify((<any>transaction)[key]);
         });
 

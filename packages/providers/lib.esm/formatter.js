@@ -1,7 +1,7 @@
 "use strict";
 import { getAddress, getContractAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
-import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
+import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@fksyuan/bytes";
 import { AddressZero } from "@ethersproject/constants";
 import { shallowCopy } from "@ethersproject/properties";
 import { parse as parseTransaction } from "@ethersproject/transactions";
@@ -249,7 +249,7 @@ export class Formatter {
         // @TODO: use transaction.serialize? Have to add support for including v, r, and s...
         /*
         if (!transaction.raw) {
- 
+
              // Very loose providers (e.g. TestRPC) do not provide a signature or raw
              if (transaction.v && transaction.r && transaction.s) {
                  let raw = [
@@ -263,7 +263,7 @@ export class Formatter {
                      stripZeros(hexlify(transaction.r)),
                      stripZeros(hexlify(transaction.s)),
                  ];
- 
+
                  transaction.raw = rlpEncode(raw);
              }
          }

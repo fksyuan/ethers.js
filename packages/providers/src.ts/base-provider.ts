@@ -5,7 +5,7 @@ import {
     Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse
 } from "@ethersproject/abstract-provider";
 import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, hexDataLength, hexlify, hexValue, isHexString } from "@ethersproject/bytes";
+import { arrayify, hexDataLength, hexlify, hexValue, isHexString } from "@fksyuan/bytes";
 import { namehash } from "@ethersproject/hash";
 import { getNetwork, Network, Networkish } from "@ethersproject/networks";
 import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";

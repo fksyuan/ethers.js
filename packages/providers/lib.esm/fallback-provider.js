@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { Provider } from "@ethersproject/abstract-provider";
 import { BigNumber } from "@ethersproject/bignumber";
-import { isHexString } from "@ethersproject/bytes";
+import { isHexString } from "@fksyuan/bytes";
 import { deepCopy, defineReadOnly, shallowCopy } from "@ethersproject/properties";
 import { shuffled } from "@ethersproject/random";
 import { poll } from "@ethersproject/web";
@@ -525,3 +525,4 @@ export class FallbackProvider extends BaseProvider {
         });
     }
 }
+//# sourceMappingURL=fallback-provider.js.map

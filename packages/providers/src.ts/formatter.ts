@@ -3,7 +3,7 @@
 import { Block, TransactionReceipt, TransactionResponse } from "@ethersproject/abstract-provider";
 import { getAddress, getContractAddress } from "@fksyuan/address";
 import { BigNumber } from "@ethersproject/bignumber";
-import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
+import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@fksyuan/bytes";
 import { AddressZero } from "@ethersproject/constants";
 import { shallowCopy } from "@ethersproject/properties";
 import { parse as parseTransaction } from "@ethersproject/transactions";

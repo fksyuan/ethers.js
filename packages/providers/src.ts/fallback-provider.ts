@@ -2,7 +2,7 @@
 
 import { Block, BlockWithTransactions, Provider } from "@ethersproject/abstract-provider";
 import { BigNumber } from "@ethersproject/bignumber";
-import { isHexString } from "@ethersproject/bytes";
+import { isHexString } from "@fksyuan/bytes";
 import { Network } from "@ethersproject/networks";
 import { deepCopy, defineReadOnly, shallowCopy } from "@ethersproject/properties";
 import { shuffled } from "@ethersproject/random";

@@ -1,6 +1,6 @@
 import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
 import { Signer } from "@ethersproject/abstract-signer";
-import { Bytes } from "@ethersproject/bytes";
+import { Bytes } from "@fksyuan/bytes";
 import { Network, Networkish } from "@ethersproject/networks";
 import { Deferrable } from "@ethersproject/properties";
 import { ConnectionInfo } from "@ethersproject/web";

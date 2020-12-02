@@ -10,7 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import { Signer } from "@ethersproject/abstract-signer";
 import { BigNumber } from "@ethersproject/bignumber";
-import { hexlify, hexValue } from "@ethersproject/bytes";
+
+import { hexlify, hexValue } from "@fksyuan/bytes";
 import { checkProperties, deepCopy, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
 import { toUtf8Bytes } from "@ethersproject/strings";
 import { fetchJson, poll } from "@ethersproject/web";
@@ -465,3 +466,7 @@ export class JsonRpcProvider extends BaseProvider {
         return result;
     }
 }
+<<<<<<< Updated upstream
+=======
+//# sourceMappingURL=json-rpc-provider.js.map
+>>>>>>> Stashed changes

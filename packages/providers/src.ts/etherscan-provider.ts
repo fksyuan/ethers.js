@@ -1,7 +1,7 @@
 "use strict";
 
 import { BlockTag, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { hexlify, hexValue } from "@ethersproject/bytes";
+import { hexlify, hexValue } from "@fksyuan/bytes";
 import { Network, Networkish } from "@ethersproject/networks";
 import { deepCopy, defineReadOnly } from "@ethersproject/properties";
 import { fetchJson } from "@ethersproject/web";
